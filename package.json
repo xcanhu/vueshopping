@@ -1,0 +1,42 @@
+{
+  "name": "vueshopping",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "build:ssr": "cross-env SSR=true webpack --mode production",
+    "preview": "webpack serve --mode production",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "@vue/server-renderer": "^3.3.4",
+    "axios": "^1.5.0",
+    "element-plus": "^2.3.12",
+    "express": "^4.18.2",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "vue-server-renderer": "^2.7.14"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "null-loader": "^4.0.1",
+    "sass": "^1.86.2",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "vue-loader": "^17.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-manifest-plugin": "^5.0.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}

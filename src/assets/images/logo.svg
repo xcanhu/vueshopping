@@ -1,0 +1,19 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="50" y="35" font-family="Arial" font-weight="bold" font-size="32" fill="url(#logoGrad)" filter="url(#glow)">StarMall</text>
+  <path d="M30 25 L33 15 L25 21 H35 L27 15 L30 25" fill="url(#logoGrad)" filter="url(#glow)" transform="rotate(5, 30, 20)"/>
+  <circle cx="37" cy="12" r="1.5" fill="url(#logoGrad)" filter="url(#glow)"/>
+  <circle cx="22" cy="18" r="1" fill="url(#logoGrad)" filter="url(#glow)"/>
+</svg>

@@ -26,7 +26,7 @@
 
 
 ## 多种主题配色，任君挑选
-![主题配色](./public/color.png)
+![主题配色](./public/d8dac609885705d8e5a33c69e8ecb29.png)
 
 
 ## 技术栈
